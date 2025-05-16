@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-01/ex02_10.py" afterDir="false" />
+    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="project structure update">
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-01/ex03/ex03_06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +65,11 @@
     "Python.ex02_07.executor": "Run",
     "Python.ex02_08.executor": "Run",
     "Python.ex02_09.executor": "Run",
+    "Python.ex03_01.executor": "Run",
+    "Python.ex03_02.executor": "Run",
+    "Python.ex03_03.executor": "Run",
+    "Python.ex03_04.executor": "Run",
+    "Python.ex03_05.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747358747528</updated>
-      <workItem from="1747358748558" duration="4492000" />
+      <workItem from="1747358748558" duration="6249000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -127,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747359427181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project structure update">
+      <option name="closed" value="true" />
+      <created>1747363385665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747363385665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,18 +144,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="project structure update" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structure update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_03.coverage" NAME="ex02_03 Coverage Results" MODIFIED="1747360658003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_06.coverage" NAME="ex02_06 Coverage Results" MODIFIED="1747362063672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_05.coverage" NAME="ex02_05 Coverage Results" MODIFIED="1747361556998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_07.coverage" NAME="ex02_07 Coverage Results" MODIFIED="1747362512166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_09.coverage" NAME="ex02_09 Coverage Results" MODIFIED="1747363149797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_01.coverage" NAME="ex03_01 Coverage Results" MODIFIED="1747363679612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
     <SUITE FILE_PATH="coverage/PythonProject$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1747359023621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_04.coverage" NAME="ex02_04 Coverage Results" MODIFIED="1747360847995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_01.coverage" NAME="ex02_01 Coverage Results" MODIFIED="1747360212256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_02.coverage" NAME="ex02_02 Coverage Results" MODIFIED="1747360408166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_08.coverage" NAME="ex02_08 Coverage Results" MODIFIED="1747362881585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_04.coverage" NAME="ex03_04 Coverage Results" MODIFIED="1747364381541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_03.coverage" NAME="ex02_03 Coverage Results" MODIFIED="1747360658003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_06.coverage" NAME="ex02_06 Coverage Results" MODIFIED="1747362063672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_09.coverage" NAME="ex02_09 Coverage Results" MODIFIED="1747363149797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_03.coverage" NAME="ex03_03 Coverage Results" MODIFIED="1747364168656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_05.coverage" NAME="ex03_05 Coverage Results" MODIFIED="1747364651940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_02.coverage" NAME="ex02_02 Coverage Results" MODIFIED="1747360408166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_02.coverage" NAME="ex03_02 Coverage Results" MODIFIED="1747363887040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
   </component>
 </project>
