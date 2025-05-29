@@ -32,7 +32,7 @@ while (1 == 1):
             print("\n3. Xoa sinh vien.")
             print("\nNhap ID: ")
             Id = int(input())
-            if (qlsv.deleteById(ID)):
+            if (qlsv.deleteById(Id)):
                 print("\nSinh vien co id=", ID, "da bi xoa.")
             else:
                 print("\nSinh vien co id=", ID, "khong ton tai.")
