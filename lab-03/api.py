@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from cipher.rsa import rsa_cipher
+from cipher.rsa import RSACipher
 
 app = Flask(__name__)
 
@@ -40,7 +40,7 @@ def rsa_decrypt():
     else:
         return jsonify({'error': 'Invalid key type'})
     ciphertext = bytes.fromhex(ciphertext_hex)
-    decrypted_message = rsa_cipher.decrypted(ciphertext, key)
+    decrypted_message = rsa_cipher.decrypt(ciphertext, key)
     return jsonify({'decrypted_message': decrypted_message})
 
 @app.route('/api/rsa/sign', methods=['POST'])
@@ -60,7 +60,7 @@ def rsa_verify_signature():
     public_key, _ = rsa_cipher.load_keys()
     signature = bytes.fromhex(signature_hex)
     is_verified = rsa_cipher.verify(message, signature, public_key)
-    return jsonify({'is verified': is_verified})
+    return jsonify({'is_verified': is_verified})
 #main function
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

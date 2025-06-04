@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="[add] lab-02 ex01 caesar">
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/playfair/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/playfair/playfair_cipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/railfence/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/railfence/railfence_cipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/transposition/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/transposition/transposition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/vigenere/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-02/ex01/cipher/vigenere/vigenere_cipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-03/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-03/cipher/rsa/rsa_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03/cipher/rsa/rsa_cipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-03/rsa_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03/rsa_cipher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +49,12 @@
     &quot;assignee&quot;: &quot;khar34&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/khar34/bmttnc-hutech-2280601361&quot;,
-    &quot;accountId&quot;: &quot;5c11f08e-e3e5-4f87-9bd6-1f3668243839&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/khar34/bmttnc-hutech-2280601361",
+    "accountId": "9dee767a-2b81-4286-a976-03b560e1e195"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -96,10 +93,11 @@
     "Python.ex03_05.executor": "Run",
     "Python.ex03_06.executor": "Run",
     "Python.playfair_cipher.executor": "Run",
+    "Python.rsa_cipher.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lab-02",
+    "git-widget-placeholder": "lab-03",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -159,6 +157,7 @@
       <workItem from="1747960916680" duration="547000" />
       <workItem from="1747961487440" duration="1717000" />
       <workItem from="1747965937525" duration="8454000" />
+      <workItem from="1749041799505" duration="4789000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -222,29 +221,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="[add] lab-02 ex01 caesar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$caesar_cipher.coverage" NAME="caesar_cipher Coverage Results" MODIFIED="1747967197896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01/cipher/caesar" />
-    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$api.coverage" NAME="api Coverage Results" MODIFIED="1747973464976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01" />
-    <SUITE FILE_PATH="coverage/PythonProject$Main.coverage" NAME="Main Coverage Results" MODIFIED="1747367759894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_05.coverage" NAME="ex02_05 Coverage Results" MODIFIED="1747361556998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_08.coverage" NAME="ex02_08 Coverage Results" MODIFIED="1747362881585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex03_05.coverage" NAME="ex03_05 Coverage Results" MODIFIED="1747364651940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_02.coverage" NAME="ex02_02 Coverage Results" MODIFIED="1747360408166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$QuanLySinhVien.coverage" NAME="QuanLySinhVien Coverage Results" MODIFIED="1747367755424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
     <SUITE FILE_PATH="coverage/PythonProject$ex03_02.coverage" NAME="ex03_02 Coverage Results" MODIFIED="1747363887040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_07.coverage" NAME="ex02_07 Coverage Results" MODIFIED="1747362512166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex03_01.coverage" NAME="ex03_01 Coverage Results" MODIFIED="1747363679612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_05.coverage" NAME="ex02_05 Coverage Results" MODIFIED="1747361556998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_08.coverage" NAME="ex02_08 Coverage Results" MODIFIED="1747362881585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$Main.coverage" NAME="Main Coverage Results" MODIFIED="1747367759894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
+    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$rsa_cipher.coverage" NAME="rsa_cipher Coverage Results" MODIFIED="1749046542684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-03" />
     <SUITE FILE_PATH="coverage/PythonProject$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1747359023621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_04.coverage" NAME="ex02_04 Coverage Results" MODIFIED="1747360847995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_07.coverage" NAME="ex02_07 Coverage Results" MODIFIED="1747362512166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex02_01.coverage" NAME="ex02_01 Coverage Results" MODIFIED="1747360212256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
     <SUITE FILE_PATH="coverage/PythonProject$ex03_04.coverage" NAME="ex03_04 Coverage Results" MODIFIED="1747364381541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
     <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1747966560770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01/cipher/caesar" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_03.coverage" NAME="ex02_03 Coverage Results" MODIFIED="1747360658003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_06.coverage" NAME="ex02_06 Coverage Results" MODIFIED="1747362063672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex03_06.coverage" NAME="ex03_06 Coverage Results" MODIFIED="1747365135298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
-    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$Main.coverage" NAME="Main Coverage Results" MODIFIED="1747966087230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex02_09.coverage" NAME="ex02_09 Coverage Results" MODIFIED="1747363149797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
-    <SUITE FILE_PATH="coverage/PythonProject$ex03_03.coverage" NAME="ex03_03 Coverage Results" MODIFIED="1747364168656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_04.coverage" NAME="ex02_04 Coverage Results" MODIFIED="1747360847995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$api.coverage" NAME="api Coverage Results" MODIFIED="1749045763663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-03" />
     <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$playfair_cipher.coverage" NAME="playfair_cipher Coverage Results" MODIFIED="1747973460896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01/cipher/playfair" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_06.coverage" NAME="ex02_06 Coverage Results" MODIFIED="1747362063672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_09.coverage" NAME="ex02_09 Coverage Results" MODIFIED="1747363149797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_01.coverage" NAME="ex03_01 Coverage Results" MODIFIED="1747363679612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$Main.coverage" NAME="Main Coverage Results" MODIFIED="1749043602693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
     <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$alphabet.coverage" NAME="alphabet Coverage Results" MODIFIED="1747966566568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01/cipher/caesar" />
+    <SUITE FILE_PATH="coverage/bmttnc_hutech_2280601361$caesar_cipher.coverage" NAME="caesar_cipher Coverage Results" MODIFIED="1747967197896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-02/ex01/cipher/caesar" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_06.coverage" NAME="ex03_06 Coverage Results" MODIFIED="1747365135298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex02_03.coverage" NAME="ex02_03 Coverage Results" MODIFIED="1747360658003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01" />
+    <SUITE FILE_PATH="coverage/PythonProject$QuanLySinhVien.coverage" NAME="QuanLySinhVien Coverage Results" MODIFIED="1747367755424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex04" />
+    <SUITE FILE_PATH="coverage/PythonProject$ex03_03.coverage" NAME="ex03_03 Coverage Results" MODIFIED="1747364168656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
   </component>
 </project>

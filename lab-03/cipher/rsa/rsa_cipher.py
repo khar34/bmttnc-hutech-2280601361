@@ -1,12 +1,60 @@
 import sys
+import os
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
-from ui.rsa import Ui_MainWindow
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(os.path.dirname(current_dir))
+sys.path.insert(0, parent_dir)
+from ui.rsa import Ui_rsacipher
+import requests.exceptions
 import requests
+
+
+import rsa
+
+if not os.path.exists('cipher/rsa/keys'):
+    os.makedirs('cipher/rsa/keys')
+
+class RSACipher:
+    def __init__(self):
+        pass
+
+    def generate_keys(self):
+        (public_key, private_key) = rsa.newkeys(1024)
+        with open('cipher/rsa/keys/publicKey.pem', 'wb') as p:
+            p.write(public_key.save_pkcs1('PEM'))
+        with open('cipher/rsa/keys/privateKey.pem', 'wb') as p:
+            p.write(private_key.save_pkcs1('PEM'))
+
+    def load_keys(self):
+        with open('cipher/rsa/keys/publicKey.pem', 'rb') as p:
+            public_key = rsa.PublicKey.load_pkcs1(p.read())
+        with open('cipher/rsa/keys/privateKey.pem', 'rb') as p:
+            private_key = rsa.PrivateKey.load_pkcs1(p.read())
+        return private_key, public_key
+
+    def encrypt(self, message, key):
+        return rsa.encrypt(message.encode('ascii'), key)
+
+    def decrypt(self, ciphertext, key):
+        try:
+            return rsa.decrypt(ciphertext, key).decode('ascii')
+        except:
+            return False
+
+    def sign(self, message, key):
+        return rsa.sign(message.encode('ascii'), key, 'SHA-1')
+
+    def verify(self, message, signature, key):
+        try:
+            return rsa.verify(message.encode('ascii'), signature, key,) == 'SHA-1'
+        except:
+            return False
+
 
 class MyApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.ui = Ui_MainWindow()
+        self.ui = Ui_rsacipher()
         self.ui.setupUi(self)
         self.ui.btn_gen_keys.clicked.connect(self.call_api_gen_keys)
         self.ui.btn_encrypt.clicked.connect(self.call_api_encrypt)
@@ -41,7 +89,7 @@ class MyApp(QMainWindow):
                 data = response.json()
                 self.ui.txt_cipher_text.setText(data["encrypted_message"])
 
-                msg.QMessageBox()
+                msg = QMessageBox()
                 msg.setIcon(QMessageBox.Information)
                 msg.setText("Encrypted successfully")
                 msg.exec_()
@@ -58,7 +106,7 @@ class MyApp(QMainWindow):
         }
         try:
             response = requests.post(url, json=payload)
-            if response.status.code == 200:
+            if response.status_code == 200:
                 data = response.json()
                 self.ui.txt_plain_text.setText(data["decrypted_message"])
 
@@ -99,9 +147,12 @@ class MyApp(QMainWindow):
         }
         try:
             response = requests.post(url, json=payload)
+            print(f"API Status Code: {response.status_code}")
+            print(f"API Response: {response.text}")  # Debug the raw response
             if response.status_code == 200:
                 data = response.json()
-                if (data["is_verified"]):
+                print(f"Parsed JSON: {data}")  # Debug the parsed JSON
+                if data["is_verified"]:
                     msg = QMessageBox()
                     msg.setIcon(QMessageBox.Information)
                     msg.setText("Verified successfully")
@@ -109,14 +160,14 @@ class MyApp(QMainWindow):
                 else:
                     msg = QMessageBox()
                     msg.setIcon(QMessageBox.Information)
-                    msg.setText("Verfication failed")
+                    msg.setText("Verification failed")
                     msg.exec_()
             else:
                 print("Error while calling API")
         except requests.exceptions.RequestException as e:
             print("Error: %s" % e.message)
 
-if __name == "__main__":
+if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MyApp()
     window.show()
