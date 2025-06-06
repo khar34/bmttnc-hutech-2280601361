@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="[add] rsa">
-      <change afterPath="$PROJECT_DIR$/lab-03/cipher/ecc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-03/cipher/ecc/ecc_cipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-03/ecc_cipher.py" afterDir="false" />
+    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="[add] hash">
+      <change afterPath="$PROJECT_DIR$/lab-04/websocket/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-04/websocket/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-04/websocket/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-03/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab-03/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +47,12 @@
     &quot;assignee&quot;: &quot;khar34&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/khar34/bmttnc-hutech-2280601361&quot;,
-    &quot;accountId&quot;: &quot;9dee767a-2b81-4286-a976-03b560e1e195&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/khar34/bmttnc-hutech-2280601361",
+    "accountId": "b0f0d217-5bc8-4a56-be16-b888634e7808"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -98,7 +96,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lab-03",
+    "git-widget-placeholder": "lab-04",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -162,6 +160,7 @@
       <workItem from="1749041799505" duration="4829000" />
       <workItem from="1749112168664" duration="1430000" />
       <workItem from="1749113669295" duration="1681000" />
+      <workItem from="1749170884508" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -219,7 +218,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749046621058</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[add] socket">
+      <option name="closed" value="true" />
+      <created>1749172725034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749172725034</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[add] dh_key_pair">
+      <option name="closed" value="true" />
+      <created>1749173640510</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749173640510</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[add] hash">
+      <option name="closed" value="true" />
+      <created>1749175784571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749175784571</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +254,10 @@
     <MESSAGE value="why do i have to write commit again" />
     <MESSAGE value="[add] lab-02 ex01 caesar" />
     <MESSAGE value="[add] rsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] rsa" />
+    <MESSAGE value="[add] socket" />
+    <MESSAGE value="[add] dh_key_pair" />
+    <MESSAGE value="[add] hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] hash" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ex03_05.coverage" NAME="ex03_05 Coverage Results" MODIFIED="1747364651940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
