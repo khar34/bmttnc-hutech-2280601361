@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="[add] rsa">
-      <change afterPath="$PROJECT_DIR$/lab-04/aes_rsa_socket/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-04/aes_rsa_socket/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-04/aes_rsa_socket/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="93bdb461-18b4-44e8-b19e-753b9b2fa73b" name="Changes" comment="[add] socket">
+      <change afterPath="$PROJECT_DIR$/lab-04/dh_key_pair/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-04/dh_key_pair/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-04/dh_key_pair/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +160,7 @@
       <workItem from="1749041799505" duration="4829000" />
       <workItem from="1749112168664" duration="1430000" />
       <workItem from="1749113669295" duration="1681000" />
-      <workItem from="1749170884508" duration="1796000" />
+      <workItem from="1749170884508" duration="2688000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -220,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749046621058</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[add] socket">
+      <option name="closed" value="true" />
+      <created>1749172725034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749172725034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +238,8 @@
     <MESSAGE value="why do i have to write commit again" />
     <MESSAGE value="[add] lab-02 ex01 caesar" />
     <MESSAGE value="[add] rsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] rsa" />
+    <MESSAGE value="[add] socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] socket" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ex03_05.coverage" NAME="ex03_05 Coverage Results" MODIFIED="1747364651940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab-01/ex03" />
