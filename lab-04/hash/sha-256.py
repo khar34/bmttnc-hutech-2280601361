@@ -7,6 +7,6 @@ def calculate_sha256_hash(data):
     #tra ve bieu dien hex chuoi hash
     return sha256_hash.hexdigest()
 
-data_to_hash = input("Nhap du lieu de hash  bang SHA-256: ")
+data_to_hash = input("Nhap du lieu de hash bang SHA-256: ")
 hash_value = calculate_sha256_hash(data_to_hash)
 print("Gia tri hash SHA-256: ", hash_value)
